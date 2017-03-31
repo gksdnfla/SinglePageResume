@@ -1,0 +1,13 @@
+body { overflow-x:hidden;}
+body,p,ul,ol,dl,dd,strong,em,b,i { margin:0; padding:0px; list-style:none; font-style:normal; font-weight:normal;}
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0px; font:16px/1 "宋体";}
+img { border:none; display:block;}
+a { text-decoration:none; color:#000;}
+input { outline:none; border:none;}
+input::-ms-clear,input::-ms-reveal { display:none;}
+
+.zk { display:block;}
+.fl { float:left;}
+.fr { float:right;}
+.clearfix { zoom:1;}
+.clearfix:after { content:""; display:block; clear:both;}

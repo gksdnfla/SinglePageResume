@@ -1,0 +1,172 @@
+.warp {
+	width:750px;
+	margin:0 auto;
+	font-family:"arial";
+	color:#414a60;
+	font-size:16px;
+	line-height:1em;
+	padding-bottom:50px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:"arial";
+	font-size:16px;
+	line-height:1em;
+}
+header {
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#fff;
+	background-color:#5dd5c8;
+	position:relative;
+}
+header a {
+	width:60px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	border-radius:5px;
+	background-color:#37ddc4;
+	color:#fff;
+	position:absolute;
+	right:20px;
+	top:50%;
+	margin-top:-15px;
+}
+dl {
+	margin-top:10px;
+}
+dl dt {
+	padding:15px 0 20px;
+	margin-bottom:20px;
+	border-bottom:1px #F2F3F3 solid;
+	font-size:20px;
+	text-indent:10px;
+}
+.info {
+	padding:0 20px;
+}
+.info h5 {
+	margin-top:30px;
+}
+.info h5 span {
+	font-size:24px;
+	font-weight:300;
+	padding-right:30px;
+	position:relative;
+}
+.info h5 span:after {
+	content:"";
+	width:24px;
+	height:24px;
+	background:url(../statics/images/icons-resume.png) no-repeat -24px 0;
+	position:absolute;
+	right:0;
+	top:0;
+}
+.info ol {
+	margin:20px;
+}
+.info ol li {
+	width:140px;
+	float:left;
+	padding-left:20px;
+	font-size:13px;
+	line-height:1em;
+	position:relative;
+}
+.info ol li:after {
+	content:"";
+	width:15px;
+	height:13px;
+	background:url(../statics/images/icons-resume.png) no-repeat;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.info ol li.line:before {
+	content:"";
+	width:1px;
+	height:100%;
+	background-color:#E0E0E0;
+	position:absolute;
+	top:0;
+	right:10px;
+}
+.introduce dd,.skill dd {
+	color:#999;
+	line-height:30px;
+	text-indent:2em;
+}
+.work dd h3,.project dd h3  {
+	font-size:18px;
+	padding-left:20px;
+	margin:20px 0;
+	position:relative;
+}
+.work dd h3:before,.project dd h3:before {
+	content:"";
+	width:8px;
+	height:8px;
+	border:1px solid #18c3b1;
+	border-radius:50%;
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-5px;
+}
+.work dd li {
+	color:#999;
+}
+.work dd li,.project dd h4,.school dd h4 {
+	font-size:16px;
+	padding-left:20px;
+	margin:20px 0;
+	position:relative;
+}
+.work dd li:before,.project dd h4:before {
+	content:"";
+	width:4px;
+	height:4px;
+	border-radius:50%;
+	background-color:#999;
+	position:absolute;
+	left:3px;
+	top:50%;
+	margin-top:-2px;
+}
+.project dd p,.school dd p {
+	color:#999;
+	line-height:24px;
+	text-indent:20px;
+}
+.project dd li {
+	color:#999;
+	line-height:24px;
+	padding-left:20px;
+}
+
+#experience:after {
+	background-position: 0 -482px;
+}
+#education:after {
+	background-position: 0 -511px;
+}
+#status:after {
+	height:15px;
+	background-position: -30px -481px;
+	top:-1px;
+}
+#email:after {
+	background-position: 0 -540px;
+}
+#phone:after {
+	height:15px;
+	background-position: -30px -510px;
+	top:-1px;
+}
+#old:after {
+	height:16px;
+	background-position: 0 -57px;
+	top:-2px;
+}
